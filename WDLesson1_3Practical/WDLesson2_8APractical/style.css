@@ -14,7 +14,7 @@ a{
 }
 /* Challenge 8: Create a class rule, column that set the flex-direction property to column */
 .container{
-  align-items:center;
+  align-items
 }
 /* Challenge 9: Create a class rule, center that set the align-items property to center and the justify-contents to center */
 .container{
