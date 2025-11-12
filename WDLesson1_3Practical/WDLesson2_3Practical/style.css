@@ -27,11 +27,18 @@ text-align: center;
     height:200px;
 }
 /* Challenge 9: Change the padding to 40px for all divs */
-
+.html{
+    width:40px;
+}
 /* Challenge 10: For the HTML element with an id of "main_container" change 
                 1) the size of the font to 24pt, 
                 2) family of font to "Arial", 
                 3) color of the background to rgb(0,0,255)  
                 4) color of the text to white for the  white
 */
-
+#main_container{
+    font-size:24pt;
+    font-family:Arial;
+    background-color:(0,0,255);
+    text-color:white;
+}
