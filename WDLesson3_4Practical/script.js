@@ -7,12 +7,6 @@ function createStory(){
   let veg1 = document.getElementById("veg1");
   let veg2 = document.getElementById("veg2");
   let girlspan = document.getElementById("girlspan");
-
-  
-  
-  let girlspan = document.getElementById("girlname");
-  let veg1 = document.getElementById("vegetable1");
-
   
 
   /* Task 4: Set the innerHTML for each of the spans on lines 3 to 9 with the appropriate values from the variables you create in Task 3. */
