@@ -1,29 +1,36 @@
 // Challenge 2:  Create the function for the Average program.  Refer to the resource link in the HTML for assistance.
-Function average(){
+function average(){
     let g1 = parseFloat(document.getElementById("g1").value);
     let g2 = parseFloat(document.getElementById("g2").value);
     let g3 = parseFloat(document.getElementById("g3").value);
-    let output1 =parseFloat(document.getElementById("output_average"));
+    output1 =document.getElementById("output_average");
     
-    let avg = (g1 + g2 +g3)/3;
+    avg = (g1 + g2 +g3)/3;
+
+    output1.innerHTML="Average is " + avg
+
+
 }
 
 // Challenge 4:  Create the function for the Slope program.  Refer to the resource link in the HTML for assistance.
-Function Slope(){
+function Slope(){
 let x1 = parseFloat(document.getElementById("x1").value);
     let y1 = parseFloat(document.getElementById("x2").value);
     let x2 = parseFloat(document.getElementById("y1").value);
     let y2 = parseFloat(document.getElementById("y2").value);
-    let output2 =parseFloat(document.getElementById("output_average"));
+    output2 =document.getElementById("output_slope");
     
-    let avg = (x1  - y1 )/(x2 - y);
+    avg = (x1  - y1 )/(x2 - y2);
+
+    output2.innerHTML="Slope is " + slope
 }
 
 // Challenge 6:  Create the function for the BMI program.  Refer to the resource link in the HTML for assistance.
-Function BMI(){
-let weight = parseFloat(document.getElementById("weight").value);
-let height = parseFloat(document.getElementById("height").value);
-let output3 =parseFloat(document.getElementById("output_average"));
-    
-    let avg = weight/height;
+function BMI(){
+let weight = parseFloat(document.getElementById("weight").value)
+let height = parseFloat(document.getElementById("height").value)
+
+avg = weight/height;
+
+output1.innerHTML="Average is " + avg
 }
