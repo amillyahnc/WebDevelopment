@@ -7,7 +7,28 @@ function BMI(){
 let w = parseFloat(document.getElementById("w").value);
 let h = parseFloat(document.getElementById("h").value);
 let output = document.getElementById("output");
- let BMI = w/h**2;
+
+let msg = "";
+let filename = "";
+
+
+let BMI = 703 * (w/h**2);
+if (BMI < 18.5){
+       msg = "Underweight";
+       filename = "underweight.png";
+}
+else if(BMI >= 18.5 && BMI <= 24.9){
+       msg = "Healthy Weight";
+       filename = "healthyweight.png";
+}
+else if(BMI >= 25.0 && BMI <= 29.9){
+       msg = "Over Weight";
+       filename = "overweight.png";
+}
+else if(BMI >= 30.0){
+       msg = "Obesity";
+       filename = "obese.png";
+}
 output.innerHTML = "BMI is" + BMI; 
 }
 /* 

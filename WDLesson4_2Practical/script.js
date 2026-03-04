@@ -19,6 +19,7 @@ function area(){
        let output = document.getElementById("output"); 
        let msg = ""
        let a = l * w
+}
        if( l<= 0 || w<= 0){
         msg="Innapropriate measurement";
 }
